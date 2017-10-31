@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<root>
+	<device machinetype="双馈变流器" name="单机调试系统信息">
+		<point id="1" type="yc" addr="78"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="2" 	layouttype="1"		sysremark="" name="直流侧电压" 		category="A相参数"/>
+		<point id="2" type="yc" addr="79"  datalen="2" datatype="S16" cof="1" 	unit="A" 	remark="2" 	layouttype="1"		sysremark="" name="电网无功电流" 		category="A相参数"/>
+		<point id="3" type="yc" addr="80"  datalen="2" datatype="S16" cof="1" 	unit="A" 	remark="2" 	layouttype="1"		sysremark="" name="电网有功电流"  		category="A相参数"/>
+		<point id="4" type="yc" addr="82"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="2" 	layouttype="1"		sysremark="" name="电网电压Uab"  			category="A相参数"/>
+		<point id="5" type="yc" addr="83" datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="1" 	layouttype="1"		sysremark="" name="电网电压Ubc"  		category="A相参数"/>
+		<point id="6" type="yc" addr="108" datalen="2" datatype="S16" cof="1" 	unit="A" remark="1" 	layouttype="1"		sysremark="" name="A/B/C相总电流"  		category="A相参数"/>
+		<point id="7" type="yc" addr="113"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="1" 	layouttype="1"		sysremark="" name="输出电压Ua/Ub/Uc"  		category="A相参数"/>
+		
+		<point id="8" type="yc" addr="138"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="2" 	layouttype="2"		sysremark="" name="直流侧电压" 		category="B相参数"/>
+		<point id="9" type="yc" addr="139"  datalen="2" datatype="S16" cof="1" 	unit="A" 	remark="2" 	layouttype="2"		sysremark="" name="电网无功电流" 		category="B相参数"/>
+		<point id="10" type="yc" addr="140"  datalen="2" datatype="S16" cof="1" 	unit="A" 	remark="2" 	layouttype="2"		sysremark="" name="电网有功电流"  		category="B相参数"/>
+		<point id="11" type="yc" addr="142"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="2" 	layouttype="2"		sysremark="" name="电网电压Uab"  			category="B相参数"/>
+		<point id="12" type="yc" addr="143" datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="1" 	layouttype="2"		sysremark="" name="电网电压Ubc"  		category="B相参数"/>
+		<point id="13" type="yc" addr="168" datalen="2" datatype="S16" cof="1" 	unit="A" remark="1" 	layouttype="2"		sysremark="" name="A/B/C相总电流"  		category="B相参数"/>
+		<point id="14" type="yc" addr="173"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="1" 	layouttype="2"		sysremark="" name="输出电压Ua/Ub/Uc"  		category="B相参数"/>
+	
+		<point id="15" type="yc" addr="138"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="2" 	layouttype="3"		sysremark="" name="直流侧电压" 		category="C相参数"/>
+		<point id="16" type="yc" addr="139"  datalen="2" datatype="S16" cof="1" 	unit="A" 	remark="2" 	layouttype="3"		sysremark="" name="电网无功电流" 		category="C相参数"/>
+		<point id="17" type="yc" addr="140"  datalen="2" datatype="S16" cof="1" 	unit="A" 	remark="2" 	layouttype="3"		sysremark="" name="电网有功电流"  		category="C相参数"/>
+		<point id="18" type="yc" addr="142"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="2" 	layouttype="3"		sysremark="" name="电网电压Uab"  			category="C相参数"/>
+		<point id="19" type="yc" addr="143" datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="1" 	layouttype="3"		sysremark="" name="电网电压Ubc"  		category="C相参数"/>
+		<point id="20" type="yc" addr="168" datalen="2" datatype="S16" cof="1" 	unit="A" remark="1" 	layouttype="3"		sysremark="" name="A/B/C相总电流"  		category="C相参数"/>
+		<point id="21" type="yc" addr="173"  datalen="2" datatype="S16" cof="1" 	unit="V" 	remark="1" 	layouttype="3"		sysremark="" name="输出电压Ua/Ub/Uc"  		category="C相参数"/>
+
+	</device>
+</root>

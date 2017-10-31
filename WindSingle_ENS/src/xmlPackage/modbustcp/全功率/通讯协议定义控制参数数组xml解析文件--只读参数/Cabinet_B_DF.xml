@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<root>
+	<device machinetype="全功率变流器" name="B相参数">
+		<point id="1" 	type="yx" addr="130" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="网侧主状态字" 		category="B相参数"/>
+		<point id="2" 	type="yx" addr="131" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="网侧辅助状态字" 		category="B相参数"/>
+		<point id="3" 	type="yc" addr="132" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="网侧运行状态" 		category="B相参数"/>
+		<point id="4" 	type="yc" addr="133" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="网侧运行状态解析" 		category="B相参数"/>
+		<point id="5" 	type="yc" addr="134" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="故障字1" 			category="B相参数"/>
+		<point id="6" 	type="yc" addr="135" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 		name="故障字2" 			category="B相参数"/>
+		<point id="7" 	type="yc" addr="136" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 		name="故障字3" 			category="B相参数"/>
+		<point id="8" 	type="yc" addr="137" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 		name="故障字4" 			category="B相参数"/>
+		<point id="9" 	type="yc" addr="138" datalen="2" datatype="U16" cof="1" 	unit="V" 	remark="" sysremark="" 		name="直流侧电压" 		category="B相参数"/>
+		<point id="10" 	type="yc" addr="139" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 		name="电网无功电流" 	category="B相参数"/>
+		<point id="11" 	type="yc" addr="140" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 		name="电网有功电流" 		category="B相参数"/>
+		<point id="12" 	type="yc" addr="141" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 		name="硬件保护类型" 		category="B相参数"/>
+		<point id="13" 	type="yc" addr="142" datalen="2" datatype="U16" cof="1" 	unit="V" 	remark="" sysremark="" 		name="电网电压Vab" 		category="B相参数"/>
+		<point id="14" 	type="yc" addr="143" datalen="2" datatype="U16" cof="1" 	unit="V" 	remark="" sysremark="" 		name="电网电压Vbc" 		category="B相参数"/>
+		<point id="15" 	type="yx" addr="144" datalen="2" datatype="U16" cof="1" 	unit="℃" 	remark="" sysremark="" 	name="DSP芯片温度" 		category="B相参数"/>
+		<point id="16" 	type="yx" addr="145" datalen="2" datatype="U16" cof="10" 	unit="Hz" 	remark="" sysremark="" 	name="电网频率" 	category="B相参数"/>
+		<point id="17" 	type="yx" addr="146" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="主柜网侧电流Ia" 	category="B相参数"/>
+		<point id="18" 	type="yx" addr="147" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="主柜网侧电流Ib" 		category="B相参数"/>
+		<point id="19" 	type="yx" addr="148" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="主柜网侧电流Ic" 	category="B相参数"/>
+		<point id="20" 	type="yx" addr="149" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 	name="主柜故障次数" 	category="B相参数"/>
+		<point id="21" 	type="yc" addr="150" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="LVRT类型" 		category="B相参数"/>
+		<point id="22" 	type="yc" addr="151" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="电容电流" 		category="B相参数"/>
+		<point id="23" 	type="yc" addr="152" datalen="2" datatype="U16" cof="1" 	unit="kW" 	remark="" sysremark="" 		name="有功功率" 			category="B相参数"/>
+		<point id="24" 	type="yx" addr="153" datalen="2" datatype="U16" cof="1" 	unit="kVar" 	remark="" sysremark="" 	name="无功功率" 	category="B相参数"/>
+		<point id="25" 	type="yx" addr="154" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="从柜A相电流" 		category="B相参数"/>
+		<point id="26" 	type="yx" addr="155" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="从柜B相电流" 		category="B相参数"/>
+		<point id="27" 	type="yc" addr="156" datalen="2" datatype="S16" cof="1" unit="A" 	remark="" sysremark="" 		name="从柜C相电流" 		category="B相参数"/>
+		<point id="28" 	type="yc" addr="157" datalen="2" datatype="S16" cof="1" unit="" 	remark="" sysremark="Hex" 		name="机侧主状态字" 		category="B相参数"/>
+		<point id="29" 	type="yc" addr="158" datalen="2" datatype="S16" cof="10" unit="" 	remark="" sysremark="Hex" 		name="机侧辅助状态字" 		category="B相参数"/>
+		<point id="30" 	type="yc" addr="159" datalen="2" datatype="S16" cof="1" unit="" 	remark="" sysremark="Hex" 		name="机侧运行状态字" 		category="B相参数"/>
+		<point id="31" 	type="yc" addr="160" datalen="2" datatype="S16" cof="1" unit="" 	remark="" sysremark="Hex" 		name="机侧运行状态解析" 	category="B相参数"/>
+		<point id="32" 	type="yc" addr="161" datalen="2" datatype="S16" cof="1" unit="℃" 	remark="" sysremark="Hex" 		name="机侧故障字1" 		category="B相参数"/>
+		<point id="33" 	type="yc" addr="162" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="机侧故障字2" 	category="B相参数"/>
+		<point id="34" 	type="yc" addr="163" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="机侧故障字3" 	category="B相参数"/>
+		<point id="35" 	type="yc" addr="164" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 		name="硬件保护类型" category="B相参数"/>
+		<point id="36" 	type="yc" addr="165" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="A1/B1/C1正电流" category="B相参数"/>
+		<point id="37" 	type="yc" addr="166" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="A2/B2/C2正电流" 	category="B相参数"/>
+		<point id="38" 	type="yc" addr="167" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="A3/B3/C3正电流" 	category="B相参数"/>
+		<point id="39" 	type="yc" addr="168" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="A/B/ C相总电流" 	category="B相参数"/>
+		<point id="40" 	type="yc" addr="169" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="A1/B1/C1负电流" 	category="B相参数"/>
+		<point id="41" 	type="yc" addr="170" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="A2/B2/C2负电流" 	category="B相参数"/>
+		<point id="42" 	type="yc" addr="171" datalen="2" datatype="U16" cof="1" 	unit="A" 	remark="" sysremark="" 	name="A3/B3/C3负电流" 	category="B相参数"/>
+		<point id="43" 	type="yc" addr="172" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="直流电压" 			category="B相参数"/>
+		<point id="44" 	type="yc" addr="173" datalen="2" datatype="U16" cof="1" 	unit="V" 	remark="" sysremark="" 		name="输出电压Ua/Ub/Uc" 			category="B相参数"/>
+		<point id="45" 	type="yc" addr="174" datalen="2" datatype="U16" cof="100" 	unit="Hz" 	remark="" sysremark="" 		name="输出频率" 			category="B相参数"/>
+		<point id="46" 	type="yc" addr="175" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="故障统计次数" 			category="B相参数"/>
+		<point id="47" 	type="yc" addr="176" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 		name="监控节点故障字" 			category="B相参数"/>
+		<point id="48" 	type="yc" addr="177" datalen="2" datatype="U16" cof="10" 	unit="℃" 	remark="" sysremark="" 		name="环境温度" 			category="B相参数"/>
+		<point id="49" 	type="yc" addr="178" datalen="2" datatype="U16" cof="10" 	unit="℃" 	remark="" sysremark="" 		name="水温" 			category="B相参数"/>
+		<point id="50" 	type="yc" addr="179" datalen="2" datatype="U16" cof="100" 	unit="Bar" 	remark="" sysremark="" 		name="水压" 			category="B相参数"/>
+		<point id="51" 	type="yc" addr="180" datalen="2" datatype="U16" cof="10" 	unit="℃" 	remark="" sysremark="" 	name="NTC最大温度" 	category="B相参数"/>
+		<point id="52" 	type="yc" addr="181" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="Hex" 	name="水冷系统状态字" 	category="B相参数"/>
+		<point id="53" 	type="yc" addr="182" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="备用" 			category="B相参数"/>
+		<point id="54" 	type="yc" addr="183" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="备用" 			category="B相参数"/>
+		<point id="55" 	type="yc" addr="184" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="备用" 			category="B相参数"/>
+		<point id="56" 	type="yc" addr="185" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="备用" 			category="B相参数"/>
+		<point id="57" 	type="yc" addr="186" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="备用" 			category="B相参数"/>
+		<point id="58" 	type="yc" addr="187" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="备用" 			category="B相参数"/>
+		<point id="59" 	type="yc" addr="188" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="备用" 			category="B相参数"/>
+		<point id="60" 	type="yc" addr="189" datalen="2" datatype="U16" cof="1" 	unit="" 	remark="" sysremark="" 		name="备用" 			category="B相参数"/>
+	</device>
+	<bitenumeration id="1" addr="130">
+		<list bit="0" var0="" var1="自检故障">bit0</list>
+		<list bit="1" var0="" var1="自检成功">bit1</list>
+		<list bit="2" var0="" var1="启动结束">bit2</list>
+		<list bit="3" var0="" var1="备用">bit3</list>
+		<list bit="4" var0="" var1="加载结束">bit4</list>
+		<list bit="5" var0="" var1="网侧已停机成功">bit5</list>
+		<list bit="6" var0="" var1="复位结束">bit6</list>
+		<list bit="7" var0="" var1="撬棒触发">bit7</list>
+		<list bit="8" var0="" var1="故障状态">bit8</list>
+		<list bit="9" var0="" var1="心跳位">bit9</list>
+		<list bit="10" var0="" var1="机侧已停机成功">bit10</list>
+		<list bit="11" var0="" var1="全部停机成功">bit11</list>
+		<list bit="12" var0="" var1="">bit12</list>
+		<list bit="13" var0="" var1="">bit13</list>
+		<list bit="14" var0="" var1="">bit14</list>
+		<list bit="15" var0="" var1="">bit15</list>
+	</bitenumeration>
+	<bitenumeration id="2" addr="131">
+		<list bit="0" var0="" var1="启动请求">bit0</list>
+		<list bit="1" var0="" var1="备用">bit1</list>
+		<list bit="2" var0="" var1="加载请求">bit2</list>
+		<list bit="3" var0="网侧调制禁止" var1="网侧调制激活">bit3</list>
+		<list bit="4" var0="机侧调制禁止" var1="机侧调制激活">bit4</list>
+		<list bit="5" var0="断路器分闸状态" var1="断路器合闸状态">bit5</list>
+		<list bit="6" var0="" var1="复位请求">bit6</list>
+		<list bit="7" var0="" var1="机侧停机成功">bit7</list>
+		<list bit="8" var0="" var1="备用">bit8</list>
+		<list bit="9" var0="" var1="网侧停机成功">bit9</list>
+		<list bit="10" var0="接触器分闸状态" var1="接触器合闸状态">bit10</list>
+		<list bit="11" var0="" var1="发生LVRT">bit11</list>
+		<list bit="12" var0="直流预充电停止" var1="直流预充电中">bit12</list>
+		<list bit="13" var0="" var1="">bit13</list>
+		<list bit="14" var0="" var1="">bit14</list>
+		<list bit="15" var0="" var1="">bit15</list>
+	</bitenumeration>
+	<enumeration id="3"  addr="132">
+    		<list var="34">正常停机、复位请求</list>
+    		<list var="17">运行中</list>
+    		<list var="51">模式已设置工作条件未满足</list>
+    		<list var="153">故障停机、复位请求</list>
+    		<list var="238">励磁请求(仅双馈)</list>
+			<list var="68">自检故障</list>
+			<list var="85">无模式</list>
+			<list var="102">停机中</list>
+			<list var="119">自检中</list>
+			<list var="187">参数设置初始化错误</list>
+			<list var="136">主接触器合闸中</list>
+			<list var="255">故障</list>
+  	</enumeration>
+	<enumeration id="4">
+    		<list var="1">主接触器状态错误</list>
+			<list var="2">电网未上电</list>
+			<list var="4">未捕获到电网</list>
+			<list var="8">电网相位捕获错误</list>
+			<list var="10">直流母线剩余电荷过多</list>
+			<list var="20">电网已上电(开环、闭环)</list>
+			<list var="40">端电压过低</list>
+			<list var="80">相位检测中</list>
+			<list var="100">电机转速不满足</list>
+			<list var="200">滤波电容接触器状态错误</list>
+			<list var="400">CPLD未准备好</list>
+  	</enumeration>
+   	<bitenumeration addr="133">
+   	 		<list var="1">a相电流传感器中性点错误</list>
+			<list var="2">b相电流传感器中性点错误</list>
+			<list var="4">c相电流传感器中性点错误</list>
+			<list var="8">Uab电压传感器中性点错误</list>
+			<list var="10">Ubc电压传感器中性点错误</list>
+			<list var="20">直流电压传感器自检错误</list>
+  	</bitenumeration>	
+
+	<bitenumeration id="5" addr="134">
+		<list bit="0" var0="" var1="有效值过流保护">bit0</list>
+		<list bit="1" var0="" var1="A相峰值过流保护">bit1</list>
+		<list bit="2" var0="" var1="B相峰值过流保护">bit2</list>
+		<list bit="3" var0="" var1="C相峰值过流保护">bit3</list>
+		<list bit="4" var0="" var1="硬件保护">bit4</list>
+		<list bit="5" var0="" var1="直流过压保护">bit5</list>
+		<list bit="6" var0="" var1="直流欠压保护">bit6</list>
+		<list bit="7" var0="" var1="外部急停故障">bit7</list>
+		<list bit="8" var0="" var1="通讯故障">bit8</list>
+		<list bit="9" var0="" var1="主接触器返回故障">bit9</list>
+		<list bit="10" var0="" var1="第2s软启故障">bit10</list>
+		<list bit="11" var0="" var1="第4s软启故障">bit11</list>
+		<list bit="12" var0="" var1="第7s软启故障">bit12</list>
+		<list bit="13" var0="" var1="电网锁相环失步故障">bit13</list>
+		<list bit="14" var0="" var1="直流侧撬棒放电故障">bit14</list>
+		<list bit="15" var0="" var1="保留">bit15</list>
+	</bitenumeration>
+	
+	<bitenumeration id="6" addr="135">
+		<list bit="0" var0="" var1="机侧互锁保护">bit0</list>
+		<list bit="1" var0="" var1="对地漏电流保护">bit1</list>
+		<list bit="2" var0="" var1="A相电流不平衡保护">bit2</list>
+		<list bit="3" var0="" var1="B相电流不平衡保护">bit3</list>
+		<list bit="4" var0="" var1="C相电流不平衡保护">bit4</list>
+		<list bit="5" var0="" var1="电网交流过压保护">bit5</list>
+		<list bit="6" var0="" var1="电网交流欠压保护">bit6</list>
+		<list bit="7" var0="" var1="PDP保护">bit7</list>
+		<list bit="8" var0="" var1="撬棒导通时间故障">bit8</list>
+		<list bit="9" var0="" var1="AD7606采样故障">bit9</list>
+		<list bit="10" var0="" var1="电网初始幅值超过限">bit10</list>
+		<list bit="11" var0="" var1="保留">bit11</list>
+		<list bit="12" var0="" var1="保留">bit12</list>
+		<list bit="13" var0="" var1="直流母线放电故障">bit13</list>
+		<list bit="14" var0="" var1="主接触器返回故障">bit14</list>
+		<list bit="15" var0="" var1="保留">bit15</list>
+	</bitenumeration>
+	
+	<bitenumeration id="7" addr="136">
+		<list bit="0" var0="" var1="A相电流变化率">bit0</list>
+		<list bit="1" var0="" var1="B相电流变化率">bit1</list>
+		<list bit="2" var0="" var1="C相电流变化率">bit2</list>
+		<list bit="3" var0="" var1="A相峰值过流(LVRT)">bit3</list>
+		<list bit="4" var0="" var1="B相峰值过流(LVRT)">bit4</list>
+		<list bit="5" var0="" var1="C相峰值过流(LVRT)">bit5</list>
+		<list bit="6" var0="" var1="电网正序有功幅值突变">bit6</list>
+		<list bit="7" var0="" var1="电网电压锁相失步">bit7</list>
+		<list bit="8" var0="" var1="硬件过流保护">bit8</list>
+		<list bit="9" var0="" var1="I2C通讯读取数据失败">bit9</list>
+		<list bit="10" var0="" var1="硬件过压保护">bit10</list>
+		<list bit="11" var0="" var1="保留">bit11</list>
+		<list bit="12" var0="" var1="保留">bit12</list>
+		<list bit="13" var0="" var1="滤波电容接触器返回故障">bit13</list>
+		<list bit="14" var0="" var1="LVRT判断失败">bit14</list>
+		<list bit="15" var0="" var1="保留">bit15</list>
+	</bitenumeration>
+	<bitenumeration id="8" addr="137">
+		<list bit="0" var0="" var1="备用">bit0</list>
+		<list bit="1" var0="" var1="备用">bit1</list>
+		<list bit="2" var0="" var1="备用">bit2</list>
+		<list bit="3" var0="" var1="备用">bit3</list>
+		<list bit="4" var0="" var1="备用">bit4</list>
+		<list bit="5" var0="" var1="备用">bit5</list>
+		<list bit="6" var0="" var1="备用">bit6</list>
+		<list bit="7" var0="" var1="备用">bit7</list>
+		<list bit="8" var0="" var1="备用">bit8</list>
+		<list bit="9" var0="" var1="备用">bit9</list>
+		<list bit="10" var0="" var1="备用">bit10</list>
+		<list bit="11" var0="" var1="备用">bit11</list>
+		<list bit="12" var0="" var1="备用">bit12</list>
+		<list bit="13" var0="" var1="备用">bit13</list>
+		<list bit="14" var0="" var1="备用">bit14</list>
+		<list bit="15" var0="" var1="备用">bit15</list>
+	</bitenumeration>
+
+	<bitenumeration id="12" addr="141">
+		<list bit="0" var0="" var1="A相模块PDP">bit0</list>
+		<list bit="1" var0="" var1="B相模块PDP">bit1</list>
+		<list bit="2" var0="" var1="C相模块PDP">bit2</list>
+		<list bit="3" var0="" var1="U相模块PDP">bit3</list>
+		<list bit="4" var0="" var1="V相模块PDP">bit4</list>
+		<list bit="5" var0="" var1="W相模块PDP">bit5</list>
+		<list bit="6" var0="" var1="撬棒模块PDP">bit6</list>
+		<list bit="7" var0="" var1="备用">bit7</list>
+		<list bit="8" var0="" var1="A硬件过流">bit8</list>
+		<list bit="9" var0="" var1="B硬件过流">bit9</list>
+		<list bit="10" var0="" var1="C硬件过流">bit10</list>
+		<list bit="11" var0="" var1="U硬件过流">bit11</list>
+		<list bit="12" var0="" var1="V硬件过流">bit12</list>
+		<list bit="13" var0="" var1="W硬件过流">bit13</list>
+		<list bit="14" var0="" var1="直流过压">bit14</list>
+		<list bit="15" var0="" var1="窄脉冲">bit15</list>
+	</bitenumeration>
+	<bitenumeration id="21" addr="150">
+		<list bit="0" var0="" var1="A相电流变化率">bit0</list>
+		<list bit="1" var0="" var1="B相电流变化率">bit1</list>
+		<list bit="2" var0="" var1="C相电流变化率">bit2</list>
+		<list bit="3" var0="" var1="A相峰值过流">bit3</list>
+		<list bit="4" var0="" var1="B相峰值过流">bit4</list>
+		<list bit="5" var0="" var1="C相峰值过流">bit5</list>
+		<list bit="6" var0="" var1="电网正序有功突变">bit6</list>
+		<list bit="7" var0="" var1="电网电压锁相失步">bit7</list>
+		<list bit="8" var0="" var1="硬件过流">bit8</list>
+		<list bit="9" var0="" var1="备用">bit9</list>
+		<list bit="10" var0="" var1="备用">bit10</list>
+		<list bit="11" var0="" var1="备用">bit11</list>
+		<list bit="12" var0="" var1="备用">bit12</list>
+		<list bit="13" var0="" var1="备用">bit13</list>
+		<list bit="14" var0="" var1="备用">bit14</list>
+		<list bit="15" var0="" var1="备用">bit15</list>
+	</bitenumeration>
+
+
+
+	<bitenumeration id="28" addr="157">
+		<list bit="0" var0="" var1="自检故障">bit0</list>
+		<list bit="1" var0="" var1="自检成功">bit1</list>
+		<list bit="2" var0="" var1="启动结束">bit2</list>
+		<list bit="3" var0="" var1="备用">bit3</list>
+		<list bit="4" var0="" var1="加载结束">bit4</list>
+		<list bit="5" var0="" var1="网侧已停机成功">bit5</list>
+		<list bit="6" var0="" var1="复位结束">bit6</list>
+		<list bit="7" var0="" var1="撬棒触发">bit7</list>
+		<list bit="8" var0="" var1="故障状态">bit8</list>
+		<list bit="9" var0="" var1="心跳位">bit9</list>
+		<list bit="10" var0="" var1="机侧已停机成功">bit10</list>
+		<list bit="11" var0="" var1="全部停机成功">bit11</list>
+		<list bit="12" var0="" var1="">bit12</list>
+		<list bit="13" var0="" var1="">bit13</list>
+		<list bit="14" var0="" var1="">bit14</list>
+		<list bit="15" var0="" var1="">bit15</list>
+	</bitenumeration>
+	<bitenumeration id="29" addr="158">
+		<list bit="0" var0="" var1="启动请求">bit0</list>
+		<list bit="1" var0="" var1="备用">bit1</list>
+		<list bit="2" var0="" var1="加载请求">bit2</list>
+		<list bit="3" var0="网侧调制禁止" var1="网侧调制激活">bit3</list>
+		<list bit="4" var0="机侧调制禁止" var1="机侧调制激活">bit4</list>
+		<list bit="5" var0="断路器分闸状态" var1="断路器合闸状态">bit5</list>
+		<list bit="6" var0="" var1="复位请求">bit6</list>
+		<list bit="7" var0="" var1="机侧停机成功">bit7</list>
+		<list bit="8" var0="" var1="备用">bit8</list>
+		<list bit="9" var0="" var1="网侧停机成功">bit9</list>
+		<list bit="10" var0="接触器分闸状态" var1="接触器合闸状态">bit10</list>
+		<list bit="11" var0="" var1="发生LVRT">bit11</list>
+		<list bit="12" var0="直流预充电停止" var1="直流预充电中">bit12</list>
+		<list bit="13" var0="" var1="">bit13</list>
+		<list bit="14" var0="" var1="">bit14</list>
+		<list bit="15" var0="" var1="">bit15</list>
+	</bitenumeration>
+	<enumeration id="30"  addr="159">
+    		<list var="34">正常停机、复位请求</list>
+    		<list var="17">运行中</list>
+    		<list var="51">模式已设置工作条件未满足</list>
+    		<list var="153">故障停机、复位请求</list>
+    		<list var="238">励磁请求(仅双馈)</list>
+			<list var="68">自检故障</list>
+			<list var="85">无模式</list>
+			<list var="102">停机中</list>
+			<list var="119">自检中</list>
+			<list var="187">参数设置初始化错误</list>
+			<list var="136">主接触器合闸中</list>
+			<list var="255">故障</list>
+  	</enumeration>
+	<enumeration id="31">
+    		<list var="1">主接触器状态错误</list>
+			<list var="2">电网未上电</list>
+			<list var="4">未捕获到电网</list>
+			<list var="8">电网相位捕获错误</list>
+			<list var="10">直流母线剩余电荷过多</list>
+			<list var="20">电网已上电(开环、闭环)</list>
+			<list var="40">端电压过低</list>
+			<list var="80">相位检测中</list>
+			<list var="100">电机转速不满足</list>
+			<list var="200">滤波电容接触器状态错误</list>
+			<list var="400">CPLD未准备好</list>
+  	</enumeration>
+   	<bitenumeration addr="160">
+   	 		<list var="1">a相电流传感器中性点错误</list>
+			<list var="2">b相电流传感器中性点错误</list>
+			<list var="4">c相电流传感器中性点错误</list>
+			<list var="8">Uab电压传感器中性点错误</list>
+			<list var="10">Ubc电压传感器中性点错误</list>
+			<list var="20">直流电压传感器自检错误</list>
+  	</bitenumeration>	
+
+
+	<bitenumeration id="32" addr="161">
+		<list bit="0" var0="" var1="A1(B1、C1)电流变化率保护">bit0</list>
+		<list bit="1" var0="" var1="A2(B2、C2)电流变化率保护">bit1</list>
+		<list bit="2" var0="" var1="A3(B3、C3)电流变化率保护">bit2</list>
+		<list bit="3" var0="" var1="有效值过流保护">bit3</list>
+		<list bit="4" var0="" var1="A1(B1、C1)相峰值过流保护">bit4</list>
+		<list bit="5" var0="" var1="A2(B2、C2)相峰值过流保护">bit5</list>
+		<list bit="6" var0="" var1="A3(B3、C3)相峰值过流保护">bit6</list>
+		<list bit="7" var0="" var1="直流欠压保护">bit7</list>
+		<list bit="8" var0="" var1="直流过压保护">bit8</list>
+		<list bit="9" var0="" var1="网侧互锁保护">bit9</list>
+		<list bit="10" var0="" var1="三并联不均流保护">bit10</list>
+		<list bit="11" var0="" var1="保留">bit11</list>
+		<list bit="12" var0="" var1="保留">bit12</list>
+		<list bit="13" var0="" var1="保留">bit13</list>
+		<list bit="14" var0="" var1="保留">bit14</list>
+		<list bit="15" var0="" var1="保留">bit15</list>
+	</bitenumeration>
+
+	<bitenumeration id="33" addr="162">
+		<list bit="0" var0="" var1="外部急停故障">bit0</list>
+		<list bit="1" var0="" var1="交流过压保护">bit1</list>
+		<list bit="2" var0="" var1="对地漏电流保护">bit2</list>
+		<list bit="3" var0="" var1="硬件过流保护">bit3</list>
+		<list bit="4" var0="" var1="主接触器返回故障">bit4</list>
+		<list bit="5" var0="" var1="AD7606采样故障">bit5</list>
+		<list bit="6" var0="" var1="PDP保护">bit6</list>
+		<list bit="7" var0="" var1="通讯故障">bit7</list>
+		<list bit="8" var0="" var1="I2C通讯读取数据失败">bit8</list>
+		<list bit="9" var0="" var1="滤波电容电流上限保护">bit9</list>
+		<list bit="10" var0="" var1="滤波电容电流下限保护">bit10</list>
+		<list bit="11" var0="" var1="硬件过压保护">bit11</list>
+		<list bit="12" var0="" var1="保留">bit12</list>
+		<list bit="13" var0="" var1="保留">bit13</list>
+		<list bit="14" var0="" var1="保留">bit14</list>
+		<list bit="15" var0="" var1="保留">bit15</list>
+	</bitenumeration>
+	<bitenumeration id="34" addr="163">
+		<list bit="0" var0="" var1="备用">bit0</list>
+		<list bit="1" var0="" var1="备用">bit1</list>
+		<list bit="2" var0="" var1="备用">bit2</list>
+		<list bit="3" var0="" var1="备用">bit3</list>
+		<list bit="4" var0="" var1="备用">bit4</list>
+		<list bit="5" var0="" var1="备用">bit5</list>
+		<list bit="6" var0="" var1="备用">bit6</list>
+		<list bit="7" var0="" var1="备用">bit7</list>
+		<list bit="8" var0="" var1="备用">bit8</list>
+		<list bit="9" var0="" var1="备用">bit9</list>
+		<list bit="10" var0="" var1="备用">bit10</list>
+		<list bit="11" var0="" var1="备用">bit11</list>
+		<list bit="12" var0="" var1="备用">bit12</list>
+		<list bit="13" var0="" var1="备用">bit13</list>
+		<list bit="14" var0="" var1="备用">bit14</list>
+		<list bit="15" var0="" var1="备用">bit15</list>
+	</bitenumeration>
+	<bitenumeration id="35" addr="164">
+		<list bit="0" var0="" var1="A相模块PDP">bit0</list>
+		<list bit="1" var0="" var1="B相模块PDP">bit1</list>
+		<list bit="2" var0="" var1="C相模块PDP">bit2</list>
+		<list bit="3" var0="" var1="U相模块PDP">bit3</list>
+		<list bit="4" var0="" var1="V相模块PDP">bit4</list>
+		<list bit="5" var0="" var1="W相模块PDP">bit5</list>
+		<list bit="6" var0="" var1="撬棒模块PDP">bit6</list>
+		<list bit="7" var0="" var1="备用">bit7</list>
+		<list bit="8" var0="" var1="A硬件过流">bit8</list>
+		<list bit="9" var0="" var1="B硬件过流">bit9</list>
+		<list bit="10" var0="" var1="C硬件过流">bit10</list>
+		<list bit="11" var0="" var1="U硬件过流">bit11</list>
+		<list bit="12" var0="" var1="V硬件过流">bit12</list>
+		<list bit="13" var0="" var1="W硬件过流">bit13</list>
+		<list bit="14" var0="" var1="直流过压">bit14</list>
+		<list bit="15" var0="" var1="窄脉冲">bit15</list>
+	</bitenumeration>
+	<bitenumeration id="47" addr="176">
+		<list bit="0" var0="" var1="直并模块温差超限">bit0</list>
+		<list bit="1" var0="" var1="网侧电抗器温度">bit1</list>
+		<list bit="2" var0="" var1="模块过温故障">bit2</list>
+		<list bit="3" var0="" var1="网侧熔断器">bit3</list>
+		<list bit="4" var0="" var1="1#机侧熔断器">bit4</list>
+		<list bit="5" var0="" var1="直流熔丝故障">bit5</list>
+		<list bit="6" var0="" var1="并网断路器">bit6</list>
+		<list bit="7" var0="" var1="UPS故障检测">bit7</list>
+		<list bit="8" var0="" var1="220V控制点检测">bit8</list>
+		<list bit="9" var0="" var1="备用">bit9</list>
+		<list bit="10" var0="" var1="直流放点继电器状态">bit10</list>
+		<list bit="11" var0="" var1="急停状态监测">bit11</list>
+		<list bit="12" var0="" var1="内部风扇状态">bit12</list>
+		<list bit="13" var0="" var1="机侧电抗柜状态">bit13</list>
+		<list bit="14" var0="" var1="2#机侧熔断器">bit14</list>
+		<list bit="15" var0="" var1="水冷设备故障">bit15</list>
+	</bitenumeration>
+	<bitenumeration id="52" addr="181">
+		<list bit="0" var0="" var1="内部风扇启动命令">bit0</list>
+		<list bit="1" var0="" var1="水冷电压异常">bit1</list>
+		<list bit="2" var0="" var1="水加热请求">bit2</list>
+		<list bit="3" var0="" var1="水冷远程/本地">bit3</list>
+		<list bit="4" var0="" var1="低温水温状态">bit4</list>
+		<list bit="5" var0="" var1="泵启停状态">bit5</list>
+		<list bit="6" var0="" var1="过温水温状态">bit6</list>
+		<list bit="7" var0="" var1="外循环">bit7</list>
+		<list bit="8" var0="" var1="内循环">bit8</list>
+		<list bit="9" var0="" var1="外部水冷风扇1启动命令">bit9</list>
+		<list bit="10" var0="" var1="外部水冷风扇2启动命令">bit10</list>
+		<list bit="11" var0="" var1="主柜湿度状态">bit11</list>
+		<list bit="12" var0="" var1="水加热过热">bit12</list>
+		<list bit="13" var0="" var1="泵启停命令">bit13</list>
+		<list bit="14" var0="" var1="压力高/低">bit14</list>
+		<list bit="15" var0="" var1="压力差">bit15</list>
+	</bitenumeration>
+</root>

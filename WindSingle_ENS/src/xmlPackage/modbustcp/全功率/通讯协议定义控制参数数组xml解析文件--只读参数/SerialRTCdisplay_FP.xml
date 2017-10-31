@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<root>
+	<device machinetype="全功率变流器" name="变流器RTC时钟显示">
+		<point id="38" 	type="yc" addr="57" datalen="2"  datatype="U16"  cof="1" unit="" remark="" sysremark="" name="年显示" category="变流器RTC时钟显示"/>
+		<point id="39" 	type="yc" addr="58" datalen="2"  datatype="U16"  cof="1" unit="" remark="" sysremark="" name="月显示" category="变流器RTC时钟显示"/>
+		<point id="40" 	type="yc" addr="59" datalen="2"  datatype="U16"  cof="1" unit="" remark="" sysremark="" name="日显示" category="变流器RTC时钟显示"/>
+		<point id="41" 	type="yc" addr="60" datalen="2"  datatype="U16"  cof="1" unit="" remark="" sysremark="" name="时显示" category="变流器RTC时钟显示"/>
+		<point id="42" 	type="yc" addr="61" datalen="2"  datatype="U16"  cof="1" unit="" remark="" sysremark="" name="分显示" category="变流器RTC时钟显示"/>
+		<point id="43" 	type="yc" addr="62" datalen="2"  datatype="U16"  cof="1" unit="" remark="" sysremark="" name="秒显示" category="变流器RTC时钟显示"/>
+	</device>
+</root>
